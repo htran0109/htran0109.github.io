@@ -33,39 +33,31 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Personal Site",
+			title: "Game Projects",
 			description:
-				`A simple and responsive web app to showcase projects, display contact information, and tell your story. Open 
-                source for experienced developers to clone/fork and accessible for no-code users to update and host on their own`,
+				`A game inspired by old gambling films that centers around cheating (using magic) in a casino-style card game. 
+				Originally written in C# using the Unity engine, but working on porting it to Godot in the GDScript language.`,
             
             // I recommend not exceeding four logos here, leads to a poor mobile UX
 			logos: [
-                "../react-icon.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
+                "../unity-icon.png",
+				"../godot-icon.png",
+                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
             ],
-			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/personal-site",
-            linkText2: "Live",
-			link2: "https://eddie-oconnor.com/"
+			linkText1: "Itch.io Link",
+			link2: "https://htran0109.itch.io/card-game-testing"
 		},
 
 		{
-			title: "PollyGlot",
+			title: "An alternative paradigm to analyze proof-of-stake protocols",
 			description:
-				`PollyGlot translates any language into one of the top 12 most commonly spoken global languages. 
-                It solves the language barrier problem when traveling or anytime you encounter an individual 
-                who does not speak the same language(s) as you.`,
+				`Research done in collaboration with Professor Ling Ren at UIUC. An attempt to create better metrics
+				with which to describe the security of Proof-of-Stake blockchain protocols.`,
             logos: [
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
-                "../openai-icon.png",
+				"../Illinois-icon.png"
             ],
-			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/PollyGlot",
-            linkText2: "Live",
-			link2: "https://polly-glot.netlify.app/"
+			linkText1: "UIUC Library Link",
+			link1: "https://www.ideals.illinois.edu/items/118425",
 		},
 	],
 };

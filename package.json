@@ -1,5 +1,6 @@
 {
 	"name": "personal-site",
+	"homepage": "https://htran0109.github.io",
 	"version": "1.0.0",
 	"description": "Personal professional site template built using Reactjs",
 	"author": {
@@ -26,6 +27,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -52,5 +55,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.1.1"
 	}
 }

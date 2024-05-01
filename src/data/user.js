@@ -45,7 +45,7 @@ const INFO = {
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
             ],
 			linkText1: "Itch.io Link",
-			link2: "https://htran0109.itch.io/card-game-testing"
+			link1: "https://htran0109.itch.io/card-game-testing"
 		},
 
 		{

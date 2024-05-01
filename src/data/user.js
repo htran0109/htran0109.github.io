@@ -60,6 +60,46 @@ const INFO = {
 			link1: "https://www.ideals.illinois.edu/items/118425",
 		},
 	],
+
+	experience: [
+		{
+			title: "Pocket Gems",
+			logos: [
+				"./pocket-gems-icon.png",
+			]
+		},
+		{
+			title: "American Express",
+			logos: [
+				"./amex-icon.png",
+			]
+		},
+		{
+			title: "Amazon",
+			logos: [
+				"./amazon-icon.png",
+			]
+		},
+		{
+			title: "MITRE",
+			logos: [
+				"./mitre-icon.png",
+			]
+		},
+		{
+			title: "University of Illinois",
+			logos: [
+				"./Illinois-icon.png",
+			]
+		},
+		{
+			title: "UC San Diego",
+			logos: [
+				"./san-diego-icon.png",
+			]
+		},
+
+	],
 };
 
 export default INFO;

@@ -78,6 +78,11 @@
 	padding-top: 40px;
 }
 
+.homepage-experience {
+	flex-basis: 300px;
+	padding-top: 200px;
+}
+
 .homepage-articles {
 	flex-basis: 900px;
 	padding-top: 30px;

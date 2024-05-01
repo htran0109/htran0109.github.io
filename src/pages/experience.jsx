@@ -5,7 +5,8 @@ import Footer from "../components/common/footer";
 
 import INFO from "../data/user";
 
-import "./styles/experience.css";
+import "./styles/experiencePage.css";
+import AllExperiences from "../components/experience/allExperience";
 
 const Experience = () => {
 
@@ -32,15 +33,18 @@ const Experience = () => {
 			<div className="page-content">
 				<NavBar active="experience" />
 				<div className="content-wrapper">
-					<div className="experience-container">
-						<div className="title experience-title">
+					<div className="experiencePage-container">
+						<div className="title experiencePage-title">
                             {INFO.project.title !== "" ? INFO.project.title : codedTitle}
 						</div>
 
-						<div className="subtitle experience-subtitle">
+						<div className="subtitle experiencePage-subtitle">
                             {INFO.project.description !== "" ? INFO.project.description : codedDescription}
 						</div>
 
+					</div>
+					<div>
+						<AllExperiences/>
 					</div>
 					<div className="page-footer">
 						<Footer />

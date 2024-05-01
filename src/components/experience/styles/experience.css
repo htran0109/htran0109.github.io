@@ -1,0 +1,41 @@
+@import "../../../data/styles.css";
+
+.experience {
+	mix-blend-mode: normal;
+	opacity: 0.8;
+	height: 100%;
+	margin-left: 50px;
+}
+
+.experience a {
+	text-decoration: none;
+}
+
+.experience-container {
+	display: grid;
+	grid-template-columns: 10rem 10rem 10rem;
+	gap: 2rem;
+	padding: 10px;
+	border: 4px solid var(--secondary-color);
+}
+
+.experience-logos {
+	margin-top : 2px;
+	margin-left: 5px;
+	width: 50px;
+}
+
+.experience-logos img {
+	width:100%;
+}
+
+.experience-title {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 20px;
+	margin-bottom: 0.8em;
+	margin-top: 0.8em;
+	margin-left: -120px;
+	font-weight: 700;
+	width: 250px;
+}

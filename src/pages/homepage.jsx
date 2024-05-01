@@ -14,6 +14,7 @@ import INFO from "../data/user";
 
 
 import "./styles/homepage.css";
+import AllExperiences from "../components/experience/allExperience";
 
 const Homepage = () => {
 
@@ -97,6 +98,10 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+						</div>
+
+						<div className="homepage-experience">
+							<AllExperiences />
 						</div>
 
 						<div className="homepage-projects">

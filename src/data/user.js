@@ -50,9 +50,7 @@ const INFO = {
 				Originally written in C# using the Unity engine, but working on porting it to Godot in the GDScript language.`,
             
 			logos: [
-                "../unity-icon.png",
-				"../godot-icon.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
+                "../unity-icon.png"
             ],
 			linkText1: "Itch.io Link",
 			link1: "https://htran0109.itch.io/card-game-testing"

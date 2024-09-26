@@ -33,12 +33,22 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Game Projects",
+			title: "Kitty Maker",
+			description:
+				`A game that implements the sandbox-style of raising something like in games such as Princess Maker or Tamagotchis, but applied to the task of raising a (somewhat magical) cat. 
+				Allows the player to build relationships with other cats, and plans to allow cat to embark on a simplistic RPG adventure minigame to uncover more about her past.`,
+            
+			logos: ["../godot-icon.png"
+            ],
+			linkText1: "Itch.io Link",
+			link1: "https://htran0109.itch.io/kitty-maker"
+		},
+		{
+			title: "Card Game Project",
 			description:
 				`A game inspired by old gambling films that centers around cheating (using magic) in a casino-style card game. 
 				Originally written in C# using the Unity engine, but working on porting it to Godot in the GDScript language.`,
             
-            // I recommend not exceeding four logos here, leads to a poor mobile UX
 			logos: [
                 "../unity-icon.png",
 				"../godot-icon.png",
